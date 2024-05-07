@@ -1,0 +1,25 @@
+{
+  "name": "visitor",
+  "version": "1.0.0",
+  "description": "访客端",
+  "author": "hongjin.wang <hongjin.wang@1cloudnet.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/visitor.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@172.16.10.25:hcy_frontend_project/frts/gateidH5.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/visitor.test.js",
+    "start": "node -v"
+  }
+}

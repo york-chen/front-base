@@ -1,0 +1,28 @@
+@page-primary-color: #165DFF;//页面主色调
+@page-light-primary-color:#E8F3FF;//页面主色调的淡几个色度
+@page-orange-color:#F53F3F;//标红
+@page-bg-danger:#FFECE8;//浅红的背景色
+@page-bg-color-gray: #F7F8FA;//整个页面的背景色
+@page-bg-color-white: #fff;//白色的背景色
+@text-color-normal: #1D2129;//默认字体颜色
+@text-color-gray: #86909C;//灰色字的颜色
+@text-color-333:#333;//颜色为#333的字体
+@text-color-white: #fff;//白色字的颜色
+@border-line-color-gray:#F2F3F5;//灰色边框颜色
+@fill-color-gray:#F2F3F5;//灰色填充色
+@border-radius-6:6px;//圆角度
+@svg 1pxborder {
+    width: 4px;
+    height: 4px;
+    @rect {
+      fill: transparent; 
+      width: 100%; 
+      height: 100%; 
+      stroke-width: 25%; 
+      stroke: var(--color, @border-line-color-gray);
+    }
+  }
+:export{
+    pagePrimaryColor:@page-primary-color;
+    pageOrangeColor:@page-orange-color;
+}

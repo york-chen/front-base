@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "lib/*"
+            ],
+        },
+        "target": "ES6",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals":true,
+        "noImplicitAny":true,
+    },
+    "include": ["lib/**/*","./**/*.d.ts"]
+}

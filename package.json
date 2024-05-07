@@ -1,0 +1,19 @@
+{
+  "name": "gateidh5",
+  "version": "1.0.0",
+  "workspace": "packages/*",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  },
+  "scripts": {
+    "start:staff": "lerna exec --scope staff -- yarn start",
+    "start:visitor": "lerna exec --scope visitor -- yarn start",
+    "start:all": "lerna exec -- yarn start",
+    "build:all":"lerna exec -- yarn build"
+  }
+}

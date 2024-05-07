@@ -1,0 +1,30 @@
+{
+  "name": "@hcy-frontend/components",
+  "version": "1.0.0",
+  "description": "公共组件",
+  "author": "york",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "exports":{
+    ".":{
+      "import": "./lib/index.ts",
+      "require": "./lib/index.ts"
+    }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@172.16.10.25:hcy_frontend_project/frts/gateidH5.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/components.test.js",
+    "start": "node -v"
+  }
+}
